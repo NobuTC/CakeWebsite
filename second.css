@@ -1,6 +1,9 @@
 body {
     background-image: url("Tunnel_of_ducks.jpeg");
     background-color: #5AF6F6;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -22,4 +25,24 @@ p {
 div {
     padding: 50px;
     margin: 20px;
+}
+
+header {
+    background-color: #cb997e;
+}
+
+nav {
+    background-color: #eddcd2;
+}
+
+section {
+    background-color: #ddbea9;
+}
+
+#do {
+    background-color: #b7b7a4;
+}
+
+.donut {
+    background-color: #a5a58d;
 }
