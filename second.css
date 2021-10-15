@@ -1,3 +1,12 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("Tunnel_of_ducks.jpeg");
     background-color: #5AF6F6;
@@ -26,14 +35,15 @@ div {
 
 header {
     background-color: #cb997e;
+    padding: 20px;
+    text-align: center;
 }
 
 nav {
-    background-color: #eddcd2;
-    float: left;
-    width: 30%;
+    background-color: #6b705c;
     font-family: Arial;
     color: aliceblue;
+    padding: 10px;
 }
 
 section {
@@ -51,12 +61,12 @@ section {
 main {
     background-color: #eddcd2;
     float: left;
-    width: 70%;
+    /* width: 70%; */
     padding: 20px;
 }
 
 .ela {
-    background-color: #eddcd2;
+    background-color: #b7b7a4;
     clear: both;
 }
 
@@ -71,6 +81,71 @@ a:hover {
     color: red;
 }
 
-* {
-    box-sizing: border-box;
+.nio {
+    background-color: #a5a58d;
+}
+
+#third-nav {
+    float: left;
+    width: 30%;
+    display: inline-block;
+}
+
+.non-border {
+    border: none;
+}
+
+.list1 {
+    padding: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.list-2 {
+    background-color: transparent;
+}
+
+.list-2 li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#header {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#second-nav {
+    background-color: #ddbea9;
+}
+
+.box {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+
+#main {
+    float: none;
+    margin: 0 auto;
+    min-height: 800px;
+    width: 70%;
+}
+
+footer {
+    background-color: #cb997e;
+    text-align: center;
+    padding: 10px;
+}
+
+#no-image {
+    background-color: #eddcd2;
+    margin: 0;
+    padding: 0;
+    min-height: 800px;
 }
