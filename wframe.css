@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Crimeson-regular;
+    src: url(fonts/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+    font-family: Crimeson-italic;
+    src: url(fonts/CrimsonText-Italic.ttf);
+}
+
+body {
+    background-color: #FFC8DD;
+    font-family: Crimeson-regular;
+}
+
+.italic-font {
+    font-family: Crimeson-italic;
+}
+
+.cake-pic {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cake-pictures img {
+    width: 100%;
+}
+
+.navbar {
+    background: #CDB4DB;
+    ;
+}
