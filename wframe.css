@@ -31,3 +31,19 @@ body {
     background: #CDB4DB;
     ;
 }
+
+.juustokakku {}
+
+.checked {
+    color: orange;
+}
+
+.stars {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.spacing {
+    width: 30px;
+    height: 30px;
+}
