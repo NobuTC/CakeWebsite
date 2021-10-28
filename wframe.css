@@ -58,3 +58,12 @@ body {
     border: 1px solid #A2D2FF;
     color: black;
 }
+
+.cardbox {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
