@@ -32,7 +32,10 @@ body {
     ;
 }
 
-.juustokakku {}
+.juustokakku {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 
 .checked {
     color: orange;
