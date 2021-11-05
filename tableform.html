@@ -10,36 +10,72 @@
 </head>
 
 <body>
-    <h1>Taulukko</h1>
-    <table>
-        <caption>Monthly savings</caption>
-        <tr>
-            <th>Month</th>
-            <th>Savings</th>
-            <th>Savings</th>
-        </tr>
-        <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>Savings</td>
-        </tr>
-        <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>Savings</td>
-        </tr>
-        <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>Savings</td>
-        </tr>
-        <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>Savings</td>
-        </tr>
-    </table>
-
+    <div id="tablet">
+        <h1 class="mainO">Taulukko</h1>
+        <table id="myTable">
+            <caption>Animal</caption>
+            <tr>
+                <th>Animal</th>
+                <th>cute</th>
+                <th>size</th>
+            </tr>
+            <tr>
+                <td>Turtle</td>
+                <td>yes</td>
+                <td>small</td>
+            </tr>
+            <tr>
+                <td>Shark</td>
+                <td>no</td>
+                <td>big</td>
+            </tr>
+            <tr>
+                <td>Parrot</td>
+                <td>somehow</td>
+                <td>normal</td>
+            </tr>
+            <tr>
+                <td>Hamster</td>
+                <td>cute</td>
+                <td>tiny</td>
+            </tr>
+        </table>
+    </div>
+    <div id="fill">
+        <h2>yhteistiedot</h2>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>
+                    FILL IT
+                </legend>
+                <label for="name">name</label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="lastname">lastname</label>
+                <input type="text" name="lastname" id="lastname" required>
+                <br>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="textarea">textarea</label>
+                <textarea rows="4" id="textarea"></textarea>
+                <br>
+                <label for="checkboxx">press</label>
+                <input type="checkbox" name="checkboxx" id="checkboxx" required>
+                <br>
+                <label for="drink">city</label>
+                <select id="drink" name="drink">
+                    <option value="volvo">Vantaa</option>
+                    <option value="saab">Helsinki</option>
+                    <option value="fiat">Espoo</option>
+                    <option value="audi">Turku</option>
+                </select>
+                <br>
+                <input type="submit" value="Add new user">
+                <br>
+            </fieldset>
+        </form>
+    </div>
 </body>
 
 </html>
