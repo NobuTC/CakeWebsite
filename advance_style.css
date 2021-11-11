@@ -1,0 +1,30 @@
+.BoxShadowing {
+    color: #A2D2FF;
+    text-shadow: 2px 3px #BDE0FE;
+    ;
+}
+
+.ImgP {
+    background-size: cover;
+    background-image: url("https://picsum.photos/300/300");
+}
+
+.linkLinks {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: red;
+    transition: 4s;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
