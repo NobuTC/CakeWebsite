@@ -8,10 +8,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juustokakku</title>
+    <title>Kakkuyhteistieto</title>
 </head>
 
 <body>
+
     <header>
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid">
@@ -25,10 +26,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Kotisivu</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Kotisivu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="kakkureseptit.html">Kakut</a>
+                            <a class="nav-link" href="kakkureseptit.html">Kakut</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="kakkureseptit.html" id="navbarDropdown"
@@ -54,63 +55,43 @@
         </nav>
     </header>
 
-    <div class="container">
 
-        <div class="juustokakku text-center">
-            <h1>Suklaakakku</h1>
-            <img src="suklaakakku.png" alt="juustokakku" width="400px">
-        </div>
-
-        <div class="row">
-            <div class="cheeseainekset col-5">
-
-                <h2>Ainekset:</h2>
-
-                <h3> Pohja</h3>
-                <ul>
-                    <li>200g keksiä</li>
-                    <li>70g voi</li>
-                </ul>
-
-                <h3>Täyte</h3>
-                <ul>
-                    <li>5 klp liivate</li>
-                    <li>2 tlk kuohukerma</li>
-                    <li>2 prk tuorejuustoa</li>
-                    <li> 3 tl sitruunamehua</li>
-                    <li>1 dl sokeria</li>
-                    <li>2 tl vaniliinisokeria</li>
-                </ul>
-
-                <h3>Päällyskerros</h3>
-                <ul>
-                    <li>3 tlk Mangopiltti</li>
-                    <li>3 klp liivate</li>
-                </ul>
-            </div>
-
-
-
-            <div class="cheeseohje col-7">
-                <h2>Ohje</h2>
-                <ol>
-                    <li>Hienonna keksi ja sekoita sulatettu voi joukkoon.</li>
-                    <li>Levitä keksivoi irtopohjavuokaan ja laita jääkaappiin odottamaan.</li>
-                    <li>Laita Liivatteet veteen pehmenemään ja vatkaa kerma.</li>
-                    <li>Sekoita joukkoon vatkattu kerma, tuorejuusto, sokeri, vaniliinisokeri ja sitruunamehu.</li>
-                    <li>Purista liivatteet kuiviksi ja lisää kuumaan veteen.</li>
-                    <li>Kaada ohuena nauhana tuorejuusto seokseen ja kaada vuokaan. Anna jäähtyä jääkaapissa sillo
-                        välin.
-                    </li>
-                    <li>Tee uudelleen liivate seos ja laita mangopilttiin.</li>
-                    <li>Kaada mangoseos vuokaan ja anna jääkaapissa jäähtyä vähintään pari tuntia ennen tarjoilua.</li>
-                </ol>
-            </div>
-        </div>
+    <div id="fill">
+        <h2>yhteistiedot</h2>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>
+                    Täytä hakemus
+                </legend>
+                <label for="name">Etunimi</label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="lastname">Sukunimi</label>
+                <input type="text" name="lastname" id="lastname" required>
+                <br>
+                <br>
+                <label for="genger">Sukupuoli</label>
+                <select id="genger" name="genger">
+                    <option value="woman">Nainen</option>
+                    <option value="man">Mies</option>
+                    <option value="nogerger">Sukupuoliton</option>
+                    <option value="animal">Eläin</option>
+                </select>
+                <br>
+                <label for="email">Sähköposti</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="number">Ikä</label>
+                <input type="number" id="number" required>
+                <br>
+                <label for="checkboxx">Hyväksyt tiedot</label>
+                <input type="checkbox" name="checkboxx" id="checkboxx" required>
+                <br>
+                <input type="submit" value="vahvista">
+                <br>
+            </fieldset>
+        </form>
     </div>
-
-
-
 
 
     <footer>
@@ -121,6 +102,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
 
 </body>
 
