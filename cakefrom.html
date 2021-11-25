@@ -55,50 +55,61 @@
         </nav>
     </header>
 
+    <div class="container h-100 d-flex justify-content-center">
+        <div class="contactSS container">
+            <div class="row">
+                <div class="col-12 col-md-4 left-side">
+                    <h2>Yhteistiedot</h2>
+                    <form action="cakefrom.html">
+                        <fieldset>
+                            <legend>
+                                Täytä hakemus
+                            </legend>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Etunimi</label>
+                                <input type="text" name="name" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastname" class="form-label">Sukunimi</label>
+                                <input type="text" name="lastname" id="lastname" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="gender" class="form-label">Sukupuoli</label>
+                                <select class="form-select" id="gender" name="gender">
+                                    <option selected>Valitse sukupuoli</option>
+                                    <option value="woman">Nainen</option>
+                                    <option value="man">Mies</option>
+                                    <option value="nogerger">Sukupuoliton</option>
+                                    <option value="animal">Eläin</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="number" class="form-label">Ikä</label>
+                                <input type="number" id="number" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Sähköposti</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-check mb-3">
+                                <label for="checkbox" class="form-check-label">Hyväksy sopimus
+                                </label>
+                                <input type="checkbox" class="form-check-input" name="checkbox" id="checkbox" required>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-secondary">Vahvista</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-12 col-md-8 form-image">
+                    <h2 class="greeting">Mukavaa, että vierailet kakkusivullani</h2>
+                    <div class="bg-image">
 
-    <div class="contactSS">
-        <h2 class="contactSS">Yhteistiedot</h2>
-        <form action="cakefrom.html">
-            <fieldset class="contactSS">
-                <legend>
-                    Täytä hakemus
-                </legend>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Etunimi</label>
-                    <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="lastname" class="form-label">Sukunimi</label>
-                    <input type="text" name="lastname" id="lastname" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="gender" class="form-label">Sukupuoli</label>
-                    <select class="form-select" id="gender" name="gender">
-                        <option selected>Valitse sukupuoli</option>
-                        <option value="woman">Nainen</option>
-                        <option value="man">Mies</option>
-                        <option value="nogerger">Sukupuoliton</option>
-                        <option value="animal">Eläin</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="number" class="form-label">Ikä</label>
-                    <input type="number" id="number" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Sähköposti</label>
-                    <input type="email" name="email" id="email" class="form-control" required>
-                </div>
-                <div class="form-check mb-3">
-                    <label for="checkbox" class="form-check-label">Hyväksy sopimus
-                    </label>
-                    <input type="checkbox" class="form-check-input" name="checkbox" id="checkbox" required>
-                </div>
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-secondary">Vahvista</button>
-                </div>
-            </fieldset>
-        </form>
+            </div>
+        </div>
     </div>
     <footer>
         <hr />
