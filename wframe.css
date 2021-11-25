@@ -92,6 +92,7 @@ body {
     text-align: left;
     border: solid 2px #FFAFCC;
     color: black;
+    overflow: hidden;
 }
 
 .form-image {
@@ -122,4 +123,24 @@ body {
 
 .left-side {
     padding: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-image {
+        height: 325px;
+        width: 100%;
+        position: relative;
+    }
+
+    .bg-image {
+        background-color: black;
+        background: url(dought.jpg) no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .greeting {
+        font-size: 40px;
+    }
 }
